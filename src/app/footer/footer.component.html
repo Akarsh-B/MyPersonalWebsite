@@ -1,0 +1,64 @@
+<section class="contact-section bg-black">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 mb-3 mb-md-0">
+        <div class="card py-4 h-100">
+          <div class="card-body text-center">
+            <fa-icon [icon]="mapMarkerAltIcon" size="md" class="mb-2 text-contact"></fa-icon>
+            <h4 class="text-uppercase m-0">Address</h4>
+            <hr class="my-4" />
+            <div class="small text-black-50">{{addressLine1}}</div>
+            <div class="small text-black-50">{{cityState}}</div>
+            <div class="small text-black-50">{{country}}</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3 mb-md-0">
+        <div class="card py-4 h-100">
+          <div class="card-body text-center">
+            <fa-icon [icon]="mailIcon" size="md" class="mb-2 text-contact"></fa-icon>
+            <h4 class="text-uppercase m-0">Email</h4>
+            <hr class="my-4" />
+            <div class="small text-black-50">
+              <a href="mailto:akarshbalu@gmail.com">{{personalEmail}}</a>
+              <br />
+              <a href="mailto:abalas26@uic.edu">{{uicEmail}}</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3 mb-md-0">
+        <div class="card py-4 h-100">
+          <div class="card-body text-center">
+            <fa-icon [icon]="mobileIcon" size="md" class="mb-2 text-contact"></fa-icon>
+            <h4 class="text-uppercase m-0">Phone</h4>
+            <hr class="my-4" />
+            <div class="small text-black-50">{{contactNumber}}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="social d-flex justify-content-center">
+      <a class="mx-2" [href]="twitterURL" target="_blank">
+        <fa-icon [icon]="faTwitterIcon" size="lg"></fa-icon>
+      </a>
+      <a class="mx-2" [href]="faceBookURl" target="_blank">
+        <fa-icon [icon]="faFaceBookIcon" size="lg"></fa-icon>
+      </a>
+      <a class="mx-2" [href]="linkedInURL" target="_blank">
+        <fa-icon [icon]="faLinkedInIcon" size="lg"></fa-icon>
+      </a>
+      <a class="mx-2" [href]="gitHubURL" target="_blank">
+        <fa-icon [icon]="faGithubIcon" size="lg"></fa-icon>
+      </a>
+      <a class="mx-2" [href]="kaggleURL" target="_blank">
+        <fa-icon [icon]="faKaggleIcon" size="lg"></fa-icon>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer bg-black small text-center text-white-50">
+  <div class="container">Copyright © 2020</div>
+</footer>
