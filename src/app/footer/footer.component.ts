@@ -5,11 +5,9 @@ import {
   faLinkedinIn,
   faGithub,
   faKaggle,
-  faMegaport,
 } from '@fortawesome/free-brands-svg-icons';
 import {
   faMapMarkerAlt,
-  faEnvelopeSquare,
   faEnvelopeOpenText,
   faMobileAlt,
 } from '@fortawesome/free-solid-svg-icons';
