@@ -7,9 +7,15 @@ import { FooterComponent } from './footer/footer.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { NgxPageScrollModule } from 'ngx-page-scroll';
 import { ScrollSpyModule } from 'ng-scroll-spy';
+import { IntroductionComponent } from './introduction/introduction.component';
 
 @NgModule({
-  declarations: [AppComponent, FooterComponent, NavbarComponent],
+  declarations: [
+    AppComponent,
+    FooterComponent,
+    NavbarComponent,
+    IntroductionComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -17,7 +23,7 @@ import { ScrollSpyModule } from 'ng-scroll-spy';
     NgxPageScrollModule,
     ScrollSpyModule,
   ],
-  providers: [],
+  providers: [FooterComponent, IntroductionComponent],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
