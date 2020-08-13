@@ -1,0 +1,42 @@
+{
+  "ensono": {
+    "companyName": "Ensono LP",
+    "city": "Downers Grove",
+    "state": "Illinois",
+    "country": "USA",
+    "title": "Software Engineering Intern",
+    "year": "2020",
+    "description": [
+      "Used Angular9 as a framework to develop Single Page Application (Agile In A Box) to access and display data from JIRA",
+      "Visualized JIRA stories and its dependencies using Vis.js and used Bitbucket for version control",
+      "Worked with Jasmine/Karma and TestCafe for Unit and End-to-End Testing"
+    ]
+  },
+  "dell": {
+    "companyName": "Dell Technologies",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "country": "India",
+    "title": "Software Engineer 1",
+    "year": "2017-2019",
+    "description": [
+      "Analyze and Maintained Customer Data in the Production Environment by resolving Data and Hierarchy issues that would occur on a daily basis",
+      "Designed and Developed mappings and transformations using Informatica PowerCenter to extract data from multiple sources and perform Data Warehousing at a Central MDM repository",
+      "Developed an Account Dashboard - a tool encompassing operational KPI's and SLA's for Accounts transactions using ETL and SQL technologies",
+      "Analyze the number of visits and type of transactions that would occur in the MDM portal to better understand the type of stakeholder and transaction hours using Python and Visualization libraries",
+      "Took an initiative to lead and manage a Level-2 team and trained them to support the Master Data Management application"
+    ]
+  },
+  "bsnl": {
+    "companyName": "Bharath Sanchar Nigam Limited",
+    "city": "Bengaluru",
+    "state": "KA",
+    "country": "India",
+    "title": "Undergraduate Intern",
+    "year": "2016",
+    "description": [
+      "Received training about networking and switching devices and the wireless communication routing at BSNL",
+      "Designed and Developed a tool that supports automated Broadband provision and modification"
+    ]
+  }
+}

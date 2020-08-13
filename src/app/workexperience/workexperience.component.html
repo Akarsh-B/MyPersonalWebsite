@@ -1,0 +1,72 @@
+<div class="container-fluid p-0 mb-10" id='work-experience'>
+  <div class="row">
+    <div class="col-md-12">
+      <div class="main-timeline">
+        <div class="timeline">
+          <div class="timeline-content">
+            <div class="timeline-year">
+              <span>{{employmentDetails.ensono.year}}</span>
+            </div>
+            <div class="timeline-icon">
+              <i class="fas fa-desktop"></i><br />
+              <i class="fab fa-angular"></i><br />
+              <i class="fab fa-node"></i>
+            </div>
+            <div class="inner-content">
+              <h3 class="orgnization-title">{{employmentDetails.ensono.title}} -
+                {{employmentDetails.ensono.companyName}}</h3>
+              <h2 class="orgnization-name font-italic">{{employmentDetails.ensono.city}},
+                {{employmentDetails.ensono.state}}, {{employmentDetails.ensono.country}}</h2>
+              <p class="description">
+                <ul>
+                  <li *ngFor='let description of employmentDetails.ensono.description'>{{description}}</li>
+                </ul>
+            </div>
+          </div>
+        </div>
+        <div class="timeline">
+          <div class="timeline-content">
+            <div class="timeline-year ">
+              <span>{{employmentDetails.dell.year}}</span>
+            </div>
+            <div class="timeline-icon">
+              <i class="fa fa-database pr-4"></i>
+              <i class="fa fa-terminal pr-3"></i>
+              <i class="fas fa-server pr-2"></i>
+              <i class="fas fa-laptop"></i>
+            </div>
+            <div class="inner-content">
+              <h3 class="title">{{employmentDetails.dell.title}} - {{employmentDetails.dell.companyName}}</h3>
+              <h2 class="orgnization-name pl-2 font-italic">{{employmentDetails.dell.city}},
+                {{employmentDetails.dell.state}}, {{employmentDetails.dell.country}}</h2>
+              <p class="description">
+                <ul>
+                  <li *ngFor='let description of employmentDetails.dell.description'>{{description}}</li>
+                </ul>
+            </div>
+          </div>
+        </div>
+        <div class="timeline">
+          <div class="timeline-content">
+            <div class="timeline-year ">
+              <span>{{employmentDetails.bsnl.year}}</span>
+            </div>
+            <div class="timeline-icon">
+              <i class="fab fa-python pr-3"></i>
+              <i class="fas fa-network-wired"></i>
+            </div>
+            <div class="inner-content">
+              <h3 class="title">{{employmentDetails.bsnl.title}} - {{employmentDetails.bsnl.companyName}}</h3>
+              <h2 class="orgnization-name pl-2 font-italic">{{employmentDetails.bsnl.city}},
+                {{employmentDetails.bsnl.state}}, {{employmentDetails.bsnl.country}}</h2>
+              <p class="description">
+                <ul>
+                  <li *ngFor='let description of employmentDetails.bsnl.description'>{{description}}</li>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

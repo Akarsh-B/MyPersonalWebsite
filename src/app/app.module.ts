@@ -8,6 +8,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { NgxPageScrollModule } from 'ngx-page-scroll';
 import { ScrollSpyModule } from 'ng-scroll-spy';
 import { IntroductionComponent } from './introduction/introduction.component';
+import { WorkexperienceComponent } from './workexperience/workexperience.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { IntroductionComponent } from './introduction/introduction.component';
     FooterComponent,
     NavbarComponent,
     IntroductionComponent,
+    WorkexperienceComponent,
   ],
   imports: [
     BrowserModule,
