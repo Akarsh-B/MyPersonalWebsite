@@ -9,6 +9,7 @@ import { NgxPageScrollModule } from 'ngx-page-scroll';
 import { ScrollSpyModule } from 'ng-scroll-spy';
 import { IntroductionComponent } from './introduction/introduction.component';
 import { WorkexperienceComponent } from './workexperience/workexperience.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { WorkexperienceComponent } from './workexperience/workexperience.compone
     NavbarComponent,
     IntroductionComponent,
     WorkexperienceComponent,
+    AboutComponent,
   ],
   imports: [
     BrowserModule,

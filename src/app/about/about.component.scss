@@ -1,0 +1,62 @@
+.about-section {
+  padding: 5rem;
+  background: linear-gradient(to bottom,
+      #000000 0%,
+      rgba(0, 0, 0, 0.9) 75%,
+      rgba(0, 0, 0, 0.8) 100%);
+}
+
+.about-section h3 {
+  font-family: "Varela Round",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    "Helvetica Neue",
+    Arial,
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol",
+    "Noto Color Emoji";
+  font-size: 2rem;
+  background: white;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text !important;
+}
+
+.about-section hr {
+  border-color: #368bcc;
+  border-width: 0.05rem;
+  width: 80%;
+  align-self: center;
+  margin-top: 2rem;
+}
+
+.about-section p {
+  font-size: 1.2rem;
+}
+
+ul {
+  position: relative;
+  list-style: none;
+}
+
+li::before {
+  content: '➤';
+  position: absolute;
+  left: 0;
+}
+
+.skills-section>p {
+  margin-bottom: 1rem !important;
+  color: #368bbb;
+  font-size: 1rem;
+}
+
+.skills-section>li {
+  margin-bottom: 0.5rem !important;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
