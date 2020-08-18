@@ -1,6 +1,6 @@
 ::ng-deep .img-thumbnail {
   height: 200px;
-  background-color: #368bff;
+  background-color: #368bcc;
   opacity: 0.7;
 }
 
@@ -98,20 +98,20 @@
 
 .btn-primary {
   color: #fff;
-  background-color: #368bff;
-  border-color: #368bff;
+  background-color: #368bcc;
+  border-color: #368bcc;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #368bdd;
-  border-color: #368bdd;
+  background-color: #368bbb;
+  border-color: #368bbb;
 }
 
 .btn-primary:focus,
 .btn-primary.focus {
   color: #fff;
-  background-color: #368bdd;
-  border-color: #368bdd;
+  background-color: #368bbb;
+  border-color: #368bbb;
   box-shadow: 0 0 0 0.2rem rgba(54, 139, 204, 0.5);
 }

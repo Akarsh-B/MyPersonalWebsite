@@ -63,3 +63,23 @@
 .bg-black {
   background-color: #000000 !important;
 }
+
+.contact-section-title {
+  font-family: "Varela Round",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    "Helvetica Neue",
+    Arial,
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol",
+    "Noto Color Emoji";
+  font-size: 1.5rem;
+  background: white;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text !important;
+}

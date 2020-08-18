@@ -1,0 +1,80 @@
+{
+  "fcfs": {
+    "title": "First Come First Serve Scheduling Algorithm",
+    "desc": "Visualization of the 'First Come First Serve' scheduling algorithm using OpenGL interfaces in C++ programming language",
+    "tags": ["C++", "OpenGL"],
+    "github": "https://github.com/Akarsh-B/ProjectFCFS"
+  },
+  "ids": {
+    "title": "Intrusion Detection Using Ad-Hoc Communication Networks",
+    "desc": "A cost-effective, autonomous, two-level security Robots designed using Raspberry Pi and Arduino with Radio Frequency Identification and Facial Recognition.",
+    "tags": ["Python", "Raspberry Pi", "Arduino", "RFID", "OpenCV"],
+    "github": "https://github.com/Akarsh-B/ProjectIDS"
+  },
+  "naiveBayes": {
+    "title": "Email filtering using Naive Bayes",
+    "desc": "A Python program for classifying a mail as Ham or Spam using Conditional Probabalities, without using Scikit-Learn tools.",
+    "tags": ["Python", "Matplotlib"],
+    "github": "https://github.com/Akarsh-B/Naive_Bayes"
+  },
+  "rentCalculator": {
+    "title": "Automated Home Rent Calculator for Home Owners staying in Bangalore",
+    "desc": "Get Electricity and Water Bills of the current month by scraping the web and using automated tools to calculate and send rent details to tenants",
+    "tags": ["Python", "Selenium"],
+    "github": "https://github.com/Akarsh-B/RentCalculator"
+  },
+  "crossValidation": {
+    "title": "Implementation of K-fold Cross validation using the MNSIT Dataset",
+    "desc": "A Python program to calculate the Error Rates with change in training sample size and number of folds in K-fold cross validation using k Nearest Neighbour algorithm, without Scikit-Learn tools",
+    "tags": ["Python", "Matplotlib"],
+    "github": "https://github.com/Akarsh-B/Cross_Validation"
+  },
+  "knn": {
+    "title": "Implementation of K-Nearest Neighbours using IRIS dataset",
+    "desc": "Python program to generate a decision boundary and calculate error rate using Leave One Out cross Validation using K-Nearest-Neighbours algorithm, without Scikit-Learn tools",
+    "tags": ["Python", "Matplotlib"],
+    "github": "https://github.com/Akarsh-B/K_Nearest_Neighbours"
+  },
+  "crimesChicago": {
+    "title": "Crimes - City of Chicago",
+    "desc": "Analysis and Prediction of the type of the Crime and the possibility of criminal being arrested in the Chicago City based on the crime report data available",
+    "tags": ["Python", "Numpy", "Pandas", "Sklearn", "Seaborn"],
+    "github": "https://github.com/Akarsh-B/crimes_city_of_chicago"
+  },
+  "usElections": {
+    "title": "US Elections - 2018",
+    "desc": "Analysis of United States Senate elections for the year 2018",
+    "tags": ["Python", "Pandas", "Sklearn", "Scipy", "Seaborn"],
+    "github": "https://github.com/Akarsh-B/us_elections_2018"
+  },
+  "sentimentAnalysis": {
+    "title": "Sentiment Analysis of Tweets using Twitter API",
+    "desc": "Analyze whether a Tweet has a Positive, Negative or Neutral sentiment using Data Analysis and prediction models",
+    "tags": ["Python", "Sklearn", "Scipy", "Seaborn", "TwitterAPI"],
+    "github": "https://github.com/Akarsh-B/twitter_sentimental_analysis"
+  },
+  "disasterIdentification": {
+    "title": "Tweet - Disaster Identification",
+    "desc": "Disaster Identification of tweets using Narutal Language Processing and Sentiment Analysis",
+    "tags": ["Python", "Pandas", "Sklearn", "Spacy", "TwitterAPI"],
+    "github": "https://github.com/Akarsh-B/Disaster_Indentification"
+  },
+  "pageRank": {
+    "title": "Page Rank algorithm using WWW data",
+    "desc": "A Python Code to Pre-process, Generate Graph, Calculate Page Rank and Calculate MRR of abstracts from the WWW dataset",
+    "tags": ["Python", "NLTK", "Spacy", "NetworkX"],
+    "github": "https://github.com/Akarsh-B/Page_Rank"
+  },
+  "rankingSummarization": {
+    "title": "Automatic Text Summarization and Ranking of Email Corpus",
+    "desc": "Ranking and Summarization of Emails from the Enron organization dataset. Information Retrieval features like Term Frequency, Inverse Document Frequency and Cosine Similarity are used for ranking of the emails. A variation of page rank (Text Rank) is used for summarizing the documents based on ranking the sentences in the email",
+    "tags": ["Python", "Sklearn", "NetworkX", "NLTK", "Spacy"],
+    "github": "https://github.com/Akarsh-B/Email_Ranking_Summarization"
+  },
+  "tagSo": {
+    "title": "Tag Prediction for Stack Overflow Questions",
+    "desc": "Predict Tags for the question posted on Stack Overflow using different Machine Learning models like Multinomial Bayes, Logistic Regression and Support Vector Machines",
+    "tags": ["Python", "Numpy", "Pandas", "Sklearn", "Seaborn"],
+    "github": "#"
+  }
+}

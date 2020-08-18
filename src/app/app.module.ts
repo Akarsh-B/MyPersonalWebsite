@@ -10,6 +10,7 @@ import { ScrollSpyModule } from 'ng-scroll-spy';
 import { IntroductionComponent } from './introduction/introduction.component';
 import { WorkexperienceComponent } from './workexperience/workexperience.component';
 import { AboutComponent } from './about/about.component';
+import { ProjectsComponent } from './projects/projects.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { AboutComponent } from './about/about.component';
     IntroductionComponent,
     WorkexperienceComponent,
     AboutComponent,
+    ProjectsComponent,
   ],
   imports: [
     BrowserModule,

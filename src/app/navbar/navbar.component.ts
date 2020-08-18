@@ -1,5 +1,6 @@
 import { Component, OnInit, HostListener } from '@angular/core';
 import { ScrollSpyModule } from 'ng-scroll-spy';
+declare var $: any;
 
 @Component({
   selector: 'app-navbar',
@@ -20,5 +21,10 @@ export class NavbarComponent implements OnInit {
       : (this.Scrolled = false);
   }
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    $('body').scrollspy({
+      target: '#mainNav',
+      offset: 100,
+    });
+  }
 }
