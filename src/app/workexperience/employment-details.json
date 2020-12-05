@@ -2,20 +2,20 @@
   "ensono": {
     "companyName": "Ensono LP",
     "city": "Downers Grove",
-    "state": "Illinois",
+    "state": "IL",
     "country": "USA",
     "title": "Software Engineering Intern",
     "year": "2020",
     "description": [
-      "Used Angular9 as a framework to develop Single Page Application (Agile In A Box) to access and display data from JIRA",
-      "Visualized JIRA stories and its dependencies using Vis.js and used Bitbucket for version control",
-      "Worked with Jasmine/Karma and TestCafe for Unit and End-to-End Testing"
+      "Used Angular framework to develop Single Page Application (Agile In A Box) to access and display data from JIRA",
+      "Visualized JIRA stories and its dependencies using Vis.js",
+      "Worked with TestCafe in end-to-end testing and Jasmine for unit testing angular modules with 70% code coverage"
     ]
   },
   "dell": {
     "companyName": "Dell Technologies",
     "city": "Bengaluru",
-    "state": "Karnataka",
+    "state": "KA",
     "country": "India",
     "title": "Software Engineer 1",
     "year": "2017-2019",
@@ -36,7 +36,7 @@
     "year": "2016",
     "description": [
       "Received training about networking and switching devices and the wireless communication routing at BSNL",
-      "Designed and Developed a tool that supports automated Broadband provision and modification"
+      "Developed a tool using Python that supports automated Broadband provision and modification; reduced manual work by~50%"
     ]
   }
 }

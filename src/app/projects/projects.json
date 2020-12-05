@@ -18,7 +18,7 @@
     "github": "https://github.com/Akarsh-B/Naive_Bayes"
   },
   "rentCalculator": {
-    "title": "Automated Home Rent Calculator for Home Owners staying in Bangalore",
+    "title": "Automated Rent Calculator for Home Owners staying in Bangalore",
     "desc": "Get Electricity and Water Bills of the current month by scraping the web and using automated tools to calculate and send rent details to tenants",
     "tags": ["Python", "Selenium"],
     "github": "https://github.com/Akarsh-B/RentCalculator"
@@ -66,7 +66,7 @@
     "github": "https://github.com/Akarsh-B/Page_Rank"
   },
   "rankingSummarization": {
-    "title": "Automatic Text Summarization and Ranking of Email Corpus",
+    "title": "Text Summarization and Ranking of Email Corpus",
     "desc": "Ranking and Summarization of Emails from the Enron organization dataset. Information Retrieval features like Term Frequency, Inverse Document Frequency and Cosine Similarity are used for ranking of the emails. A variation of page rank (Text Rank) is used for summarizing the documents based on ranking the sentences in the email",
     "tags": ["Python", "Sklearn", "NetworkX", "NLTK", "Spacy"],
     "github": "https://github.com/Akarsh-B/Email_Ranking_Summarization"
@@ -76,5 +76,23 @@
     "desc": "Predict Tags for the question posted on Stack Overflow using different Machine Learning models like Multinomial Bayes, Logistic Regression and Support Vector Machines",
     "tags": ["Python", "Numpy", "Pandas", "Sklearn", "Seaborn"],
     "github": "#"
+  },
+  "vds": {
+    "title": "Identifying the right Episode of Care",
+    "desc": "Analyze the right Episode of Care for a given condition by visualizing the sequence of procedures using D3.js and Cystoscape.js",
+    "tags": ["Javascript", "Python", "D3.js", "Cytoscape.js"],
+    "github": "https://github.com/Akarsh-B/Identifying-the-Right-Episode-of-Care"
+  },
+  "imageCaptioning": {
+    "title": "Image Captioning using Computer Vision and Deep Neural Networks",
+    "desc": "Generating image captions using Convolutional Neural Networks and Sequence Models and evaluating performance metrics using BLEU scores",
+    "tags": ["Python", "Tensorflow", "Computer Vision", "NLP"],
+    "github": "https://github.com/Akarsh-B/Image-Captioning-Using-Deep-NeuralNets"
+  },
+  "sentimentAnalysisiMDB": {
+    "title": "Sentiment Analysis using Deep Neural Networks",
+    "desc": "Analyze movie review sentiments using Sequence-to-Sequence Deep Learning Models on the iMBD Dataset",
+    "tags": ["Python", "Keras", "Tensorflow", "LSTMs", "NLP"],
+    "github": "https://github.com/Akarsh-B/Image-Captioning-Using-Deep-NeuralNets"
   }
 }

@@ -20,14 +20,16 @@ export class AboutComponent implements OnInit {
     // tslint:disable-next-line: quotemark
     "Currenty, I'm working on Data Analysis - Text Extraction and Summarization using Natural Language Techniques and Deep Learning models";
 
-  public programmingLanguages = 'C, C++, Python, R, Javascript';
-  public webFramewWorks = 'Angular, NodeJs, Flask, Express';
+  public programmingLanguages =
+    'C, C++, Python, R, Java, JavaScript, TypeScript';
+  public webFramewWorks = 'Angular, Node.js, Express, Django, Flask';
   public database = 'Oracle SQL, MYSQL, PostgreSQL, MongoDB';
   public dataAnalytics =
-    'Numpy, Pandas, Scipy, Tensorflow, Keras, PyTorch, Spacy, NLTK';
-  public dataVisualization = 'Matplotlob, Seaborn, Bokeh, Tableau';
+    'Pandas, Numpy, Tensorflow, Keras, Scipy, Jupyter, NLTK, Scikit-Learn, Spacy';
+  public dataVisualization =
+    'D3.js, Three.js, Matplotlib, Seaborn, Bokeh, Tableau';
   public machineLearningModels =
-    'Regression, SVM, Decision Trees, Random Forest, XGBoost, Classification, Clustering, Neural Nets, LSTM.';
+    'Regression, SVM, Decision Trees, Random Forest, XGBoost, Classification, Clustering, Deep Neural Networks';
 
   ngOnInit(): void {}
 }

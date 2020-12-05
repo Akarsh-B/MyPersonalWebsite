@@ -5,15 +5,15 @@
       <div class="col-md-4 mb-3 mb-md-0">
         <div class="card py-4 h-100">
           <div class='card-header'>
-            <div class="m-0">{{projects.rankingSummarization.title}}</div>
+            <div class="m-0">{{projects.imageCaptioning.title}}</div>
           </div>
           <div class="card-body d-flex flex-column">
             <hr class="mt-0" />
-            <div class="medium text-black-50 mb-5">{{projects.rankingSummarization.desc}}</div>
+            <div class="medium text-black-50 mb-5">{{projects.imageCaptioning.desc}}</div>
             <div class="card-footer text-muted mt-auto m-0 p-0 mt-auto">
               <span class="badge badge-pill badge-primary mr-2 float-left"
-                *ngFor="let tags of projects.rankingSummarization.tags">{{tags}}</span><br /><br />
-              <a [href]="projects.rankingSummarization.github" target="_blank">
+                *ngFor="let tags of projects.imageCaptioning.tags">{{tags}}</span><br /><br />
+              <a [href]="projects.imageCaptioning.github" target="_blank">
                 <fa-icon [icon]="faGithubIcon" size="lg"></fa-icon>
               </a>
             </div>
@@ -23,15 +23,15 @@
       <div class="col-md-4 mb-3 mb-md-0">
         <div class="card py-4 h-100">
           <div class='card-header'>
-            <div class="m-0">{{projects.crimesChicago.title}}</div><br />
+            <div class="m-0">{{projects.rankingSummarization.title}}</div><br />
           </div>
           <div class="card-body flex-column d-flex">
             <hr class="mt-0" />
-            <div class="medium text-black-50 mb-5">{{projects.crimesChicago.desc}}</div>
+            <div class="medium text-black-50 mb-5">{{projects.rankingSummarization.desc}}</div>
             <div class="card-footer text-muted mt-auto m-0 p-0 mt-auto">
               <span class="badge badge-pill badge-primary mr-2 float-left"
-                *ngFor="let tags of projects.crimesChicago.tags">{{tags}}</span><br /><br />
-              <a class="text-center" [href]="projects.crimesChicago.github" target="_blank">
+                *ngFor="let tags of projects.rankingSummarization.tags">{{tags}}</span><br /><br />
+              <a class="text-center" [href]="projects.rankingSummarization.github" target="_blank">
                 <fa-icon [icon]="faGithubIcon" size="lg"></fa-icon>
               </a>
             </div>
@@ -58,6 +58,64 @@
       </div>
     </div>
     <div class="collapse multi-collapse" id="more-projects">
+
+      <div class="row mb-5">
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class='card-header'>
+              <div class="m-0">{{projects.vds.title}}</div>
+            </div>
+            <div class="card-body d-flex flex-column">
+              <hr class="mt-0" />
+              <div class="medium text-black-50 mb-5">{{projects.vds.desc}}</div>
+              <div class="card-footer text-muted mt-auto m-0 p-0 mt-auto">
+                <span class="badge badge-pill badge-primary mr-2 float-left"
+                  *ngFor="let tags of projects.vds.tags">{{tags}}</span><br /><br />
+                <a class="text-center" [href]="projects.vds.github" target="_blank">
+                  <fa-icon [icon]="faGithubIcon" size="lg"></fa-icon>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class='card-header'>
+              <div class="m-0">{{projects.crimesChicago.title}}</div>
+            </div>
+            <div class="card-body flex-column d-flex">
+              <hr class="mt-0" />
+              <div class="medium text-black-50 mb-5">{{projects.crimesChicago.desc}}</div>
+              <div class="card-footer text-muted mt-auto m-0 p-0 mt-auto">
+                <span class="badge badge-pill badge-primary mr-2 float-left"
+                  *ngFor="let tags of projects.crimesChicago.tags">{{tags}}</span><br /><br />
+                <a class="text-center" [href]="projects.crimesChicago.github" target="_blank">
+                  <fa-icon [icon]="faGithubIcon" size="lg"></fa-icon>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class='card-header'>
+              <div class="m-0">{{projects.sentimentAnalysisiMDB.title}}</div>
+            </div>
+            <div class="card-body flex-column d-flex">
+              <hr class="mt-0" />
+              <div class="medium text-black-50 mb-5">{{projects.sentimentAnalysisiMDB.desc}}</div>
+              <div class="card-footer text-muted mt-auto m-0 p-0 mt-auto">
+                <span class="badge badge-pill badge-primary mr-2 float-left"
+                  *ngFor="let tags of projects.sentimentAnalysisiMDB.tags">{{tags}}</span><br /><br />
+                <a class="text-center" [href]="projects.sentimentAnalysisiMDB.github" target="_blank">
+                  <fa-icon [icon]="faGithubIcon" size="lg"></fa-icon>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div class="row mb-5">
         <div class="col-md-4 mb-3 mb-md-0">
           <div class="card py-4 h-100">
